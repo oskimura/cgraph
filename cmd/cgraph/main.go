@@ -3,7 +3,7 @@ package main
 import (
 	"cgraph"
 
-	"golang.org/x/tools/go/analysis/unitchecker"
+	"golang.org/x/tools/go/analysis/singlechecker"
 )
 
-func main() { unitchecker.Main(cgraph.Analyzer) }
+func main() { singlechecker.Main(cgraph.Analyzer) }
